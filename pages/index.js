@@ -1,10 +1,6 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-// import { mpages } from '../public/mpages.png'
 import ButtonSelect from '../component/ButtonsSelect'
 import { Card, Button, Row, Col } from 'react-bootstrap';
-// a
+//AQUI NO
 export default function Home() {
   return (<>
     <h1 style={{ textAlign: 'center' }}>Seleccione la modalidad</h1>

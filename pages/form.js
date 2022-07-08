@@ -1,5 +1,8 @@
 import { Form, Button } from "react-bootstrap";
 import { useState } from "react";
+
+//LO QUE DEBO PASAR
+
 // export const handleSubmit = async (event) => {
 //     const salary = event.target.salary.value
 //     const salary2 = event.target.salary2.value
@@ -8,9 +11,11 @@ import { useState } from "react";
 
 // export const salaryexp = document.getElementById('salary')
 // export const salary2exp = document.getElementById('salary2')
-export const thefnexp = (data) => {(
-    <></>
-)}
+export const thefnexp = (data) => {
+    (
+        <></>
+    )
+}
 export default function form() {
     // const [salary, setSalary] = useState('')
     // const [gasto, setGasto] = useState('')
@@ -27,11 +32,13 @@ export default function form() {
                 <Form.Group className="mb-3" >
                     <Form.Label style={{ fontSize: '2rem', fontWeight: 'bold' }}>Saldo</Form.Label>
                     <Form.Control type="text" placeholder="salary" name='salary' id='salary' />
+                    {/* pasar este input de name salary*/}
                 </Form.Group>
 
                 <Form.Group className="mb-3">
                     <Form.Label style={{ fontSize: '2rem', fontWeight: 'bold' }}>Gasto</Form.Label>
                     <Form.Control type="text" placeholder="gasto" name='gasto' id='gasto' />
+                    {/* y este input de name gasto*/}
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
