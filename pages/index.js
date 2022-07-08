@@ -4,7 +4,7 @@
 // import { mpages } from '../public/mpages.png'
 import ButtonSelect from '../component/ButtonsSelect'
 import { Card, Button, Row, Col } from 'react-bootstrap';
-
+// a
 export default function Home() {
   return (<>
     <h1 style={{ textAlign: 'center' }}>Seleccione la modalidad</h1>
