@@ -3,28 +3,13 @@ import { useState } from "react";
 
 //LO QUE DEBO PASAR
 
-// export const handleSubmit = async (event) => {
-//     const salary = event.target.salary.value
-//     const salary2 = event.target.salary2.value
-//     console.log(salary, salary2)
-// }
 
-// export const salaryexp = document.getElementById('salary')
-// export const salary2exp = document.getElementById('salary2')
-export const thefnexp = (data) => {
-    (
-        <></>
-    )
-}
 export default function form() {
-    // const [salary, setSalary] = useState('')
-    // const [gasto, setGasto] = useState('')
     const handleSubmit = async (event) => {
         const data = {
             salary: event.target.salary.value,
             gasto: event.target.gasto.value
         }
-        thefnexp(data)
     }
     return (
         <>
